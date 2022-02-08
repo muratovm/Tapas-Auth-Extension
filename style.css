@@ -1,0 +1,121 @@
+/* myStyle.css */
+body {
+  background-color:#949494;
+  color: #FFFFFF;
+  /* background-image: url("background.png"); */
+ }
+ /* h1 {
+
+ } */
+ p {
+  background-color:black;
+  color: #333300;
+    /* ext-align: right; */
+  border: 3px groove #FFFF33;
+ }
+ div {
+  height: 220px;
+  width: 225px;
+  text-align: center;
+
+  /* background-color: powderblue; */
+}
+#qrcode{
+  width:200px; 
+  height:200px; margin-top:15px; 
+  visibility: hidden;
+  align-content: center;
+  text-align: center;
+  position: relative;
+  margin-left: 10px;
+}
+
+.Cred {
+  margin: auto;
+  padding: 1rem;
+  text-transform: uppercase;
+  color: #fafafa;
+  background-color: black;
+  border: none;
+  border-radius: 3px;
+  box-shadow: 1px 1px 10px rgba(50,50,50,.4);
+  transition: .3s all ease;
+  letter-spacing: .1rem;
+  font-size: .85rem;
+  position: relative;
+  Width: 175px;
+  text-align: center;
+  margin-top: 10px;
+}
+#PairBtn {
+  margin: auto;
+  padding: 1rem;
+  text-transform: uppercase;
+  color: #fafafa;
+  background-color: black;
+  border: none;
+  border-radius: 3px;
+  box-shadow: 1px 1px 10px rgba(50,50,50,.4);
+  transition: .3s all ease;
+  letter-spacing: .1rem;
+  font-size: .85rem;
+  position: relative;
+  /* top: 0;
+  right: 0; */
+  /* padding-left: 2.5rem; */
+  Width: 175px;
+  text-align: center;
+  
+  /* border: 2px groove #7FDBFF;
+  height: 50px;
+  width: 100px; */
+  
+  /* margin:auto;
+  display: block; */
+  /* margin-left: 20px; */
+  margin-top: 10px;
+  /* position: absolute; */
+  /* top: 50%; */
+  
+  /* background-color: cyan; */
+}
+#Title{
+  color:white;
+  text-align: center;
+  font: 150% lusitana;
+  margin-top: 20px;
+  font-size: 40px;
+ /* background-image: url("background.png"); */
+}
+#usernameTap{
+  visibility: hidden;
+}
+#passTap{
+  visibility: hidden;
+}
+#outer
+{
+  /* width:100%; */
+  text-align: center;
+}
+.inner
+{
+  display: inline-block;
+}
+#submitBtn{
+  margin: 0px; 
+  color: black;
+}
+
+#submitBtn2{
+  color: black;
+  margin-top: 5px;
+}
+#submitRegYubiBtn{
+  color: black;
+  margin-top: 5px;
+}
+
+.credText{
+  background-color: black;
+}

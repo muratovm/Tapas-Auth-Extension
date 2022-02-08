@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+      <link rel = "stylesheet" href = "style.css" />
+  </head>
+  <body>
+    <div id = "outer">
+      <h1 id = "Title">Tapas</h1>
+      <div id = "inner">
+        <button class = "Cred" id = "GetCredentialsBtn">
+            Get Credentials
+        </button>
+        <button class ="Cred" id ="CreateCredentialsBtn"  data-toggle="collapse" data-target="#submitForm">
+          Create Credentials
+      </button>
+      <article id="submitForm" class="collapse">
+        <label for="username">Username:</label><br>
+        <input type="text" class ="credText" id="username" name="username" value=""><br>
+        <label for="password">Password:</label><br>
+        <input type="password" class ="credText" id="password" name="password" value=""><br><br>
+        <Button type="button" id="submitBtn" data-toggle="collapse" data-toggle="collapse" data-target="#submitForm">Submit</Button>
+        </article> 
+        <button class ="Cred" id ="RegisterYubiBtn"  data-toggle="collapse" data-target="#RegisterYubiForm">
+          Register Yubikey
+      </button>
+      <article id="RegisterYubiForm" class="collapse">
+        <!-- <label for="YubiLabel">Client ID:</label><br>
+        <input type="text" class ="credText" id="ClientText" name="ClientText" value=""><br>
+        <label for="SecretKeyLabel">SecretKey:</label><br>
+        <input type="password" class ="credText" id="SecretText" name="SecretText" value=""><br> -->
+        <label for="OTPLabel">OTP:</label><br>
+        <input type="password" class ="credText" id="OTPText" name="OTPText" value=""><br>
+        <Button type="button" id="submitRegYubiBtn" data-toggle="collapse" data-target="#RegisterYubiForm">Submit</Button>
+        </article>
+        <button class ="Cred" id ="RecoveryBtn"  data-toggle="collapse" data-target="#authenticationForm">
+          Recovery
+      </button>
+        <!-- <article id="authenticationForm" class="collapse">
+          <label for="OTPLabel">OTP:</label><br>
+          <input type="password" class ="credText" id="OTPText2" name="OTPText" value=""><br>
+          <Button type="button" id="submitBtn2" data-toggle="collapse" data-target="#authenticationForm">Submit</Button>
+          </article> -->
+        <button id="PairBtn">
+            Pair Device
+        </button>
+        <div id="qrcode" ></div>
+      </div>
+    </div>
+    <div class="form-popup" id="myForm">
+</div>
+    <input type="text" id="usernameTap">
+    <input type="text" id="passTap">
+    <body>
+    </body>
+  </body>
+  <script type ="text/javascript" src = "dist/bundle.js"></script>
+  <script type="text/javascript" src="qrcode.min.js"></script>
+  <script type="text/javascript" src="rsagenerator.js"></script>
+  <script type="text/javascript" src="yubikey.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+
+
+<!-- 
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+  <h2>Simple Collapsible</h2>
+  <p>Click on the button to toggle between showing and hiding content.</p>
+  <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#demo">Simple collapsible</button>
+  <div id="demo" class="collapse">
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+  </div>
+</div>
+
+</body>
+</html> -->
